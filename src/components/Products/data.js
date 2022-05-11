@@ -23,7 +23,7 @@ export const productData = [
         img: product3,
         alt: 'Pastel',
         name: 'Pastel',
-        desc: 'Carne, Frango, Queijo',
+        desc: 'Carne de gado, Frango, Mortadela e queijo',
         price: 'R$ 06,00',
         button: 'Adcione a Cesta'
     }
