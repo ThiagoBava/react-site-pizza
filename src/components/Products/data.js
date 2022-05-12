@@ -1,6 +1,7 @@
 import product1 from '../../images/product-1.jpg'
 import product2 from '../../images/product-2.jpg'
 import product3 from '../../images/product-3.jpg'
+import product4 from '../../images/product-4.jpg'
 import sweet1 from '../../images/sweet.jpg'
 import sweet2 from '../../images/sweet2.jpg'
 import sweet3 from '../../images/sweet3.jpg'
@@ -12,7 +13,7 @@ export const productData = [
         name: 'Mini Pizza',
         desc: 'Calabresa, Quatro Queijos, Frango',
         price: 'R$ 05,00',
-        button: 'Adcione a Cesta'
+        button: 'Comprar'
     },
     {
         img: product2,
@@ -20,7 +21,7 @@ export const productData = [
         name: 'Hamburgão',
         desc: 'Pão, hamburguer, alface, queijo, milho, ervilha, maionese',
         price: 'R$ 10,00',
-        button: 'Adcione a Cesta'
+        button: 'Comprar'
     },
     {
         img: product3,
@@ -28,7 +29,15 @@ export const productData = [
         name: 'Pastel',
         desc: 'Carne de gado, Frango, Mortadela e queijo',
         price: 'R$ 06,00',
-        button: 'Adcione a Cesta'
+        button: 'Comprar'
+    },
+    {
+        img: product4,
+        alt: 'Brownie',
+        name: 'Brownie',
+        desc: 'Chocolate Preto, Chocolate Branco',
+        price: 'R$ 10,00',
+        button: 'Comprar'
     }
 ];
 
@@ -39,7 +48,7 @@ export const productDataTwo = [
         name: 'Mini Pizza',
         desc: 'Calabresa, Quatro Queijos, Frango',
         price: 'R$ 05,00',
-        button: 'Adcione a Cesta'
+        button: 'Comprar'
     },
     {
         img: sweet2,
@@ -47,7 +56,7 @@ export const productDataTwo = [
         name: 'Hamburgão',
         desc: 'Pão, hamburguer, alface, queijo, milho, ervilha, maionese',
         price: 'R$ 10,00',
-        button: 'Adcione a Cesta'
+        button: 'Comprar'
     },
     {
         img: sweet3,
@@ -55,6 +64,6 @@ export const productDataTwo = [
         name: 'Pastel',
         desc: 'Carne de gado, Frango, Mortadela e queijo',
         price: 'R$ 06,00',
-        button: 'Adcione a Cesta'
+        button: 'Comprar'
     }
 ]

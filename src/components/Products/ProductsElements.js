@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ProductsContainer = styled.div`
   /* width: 100vw; */
   min-height: 100vh;
-  padding: 5rem calc((100vw - 1300px) / 2);
+  padding: 5rem calc((100vw - 1600px) / 2);
   background: #150f0f;
   color: #fff;
 `;
@@ -61,7 +61,7 @@ export const ProductButton = styled.button`
   font-size: 1rem;
   padding: 1rem 4rem;
   border: none;
-  background: #e31837;
+  background: #9f0f0f;
   color: #fff;
   transition: 0.2 ease-out;
 

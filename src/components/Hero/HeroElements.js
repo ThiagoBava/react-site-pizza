@@ -34,14 +34,14 @@ export const HeroItems = styled.div`
 `
 
 export const HeroH1 = styled.h1`
-    font-size: clamp(2.5rem, 10vw, 5rem)
+    font-size: clamp(5rem, 10vw, 10rem)
     margin-bottom: 1rem;
     box-shadow: 3px 5px #e9ba23;
     letter-spacing: 3px;
 `
 
 export const HeroP = styled.p`
-    font-size: clamp(2rem, 2.5vw, 3rem)
+    font-size: clamp(3rem, 5vw, 6rem)
     margin-bottom: 2rem;
     margin-top: 1rem;
 `
@@ -51,7 +51,7 @@ export const HeroBtn = styled.button`
     margin-top: 1rem;
     padding: 1rem 4rem;
     border: none;
-    background: #e31837;
+    background: #9f0f0f;
     color: #fff;
     transition: 0.2s ease-out;
 
