@@ -5,6 +5,7 @@ import product4 from '../../images/product-4.jpg'
 import sweet1 from '../../images/sweet.jpg'
 import sweet2 from '../../images/sweet2.jpg'
 import sweet3 from '../../images/sweet3.jpg'
+import sweet4 from '../../images/sweet4.jpg'
 
 export const productData = [
     {
@@ -64,6 +65,13 @@ export const productDataTwo = [
         name: 'Pastel',
         desc: 'Carne de gado, Frango, Mortadela e queijo',
         price: 'R$ 06,00',
+        button: 'Comprar'
+    },{
+        img: sweet4,
+        alt: 'Trufa',
+        name: 'Trufa',
+        desc: 'Trufa de chocolate preto com recheio de creme',
+        price: 'R$ 12,00',
         button: 'Comprar'
     }
 ]

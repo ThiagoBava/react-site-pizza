@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
-import { FaVest } from 'react-icons/fa';
+import { FaShare } from 'react-icons/fa';
 
 export const Nav = styled.nav`
   background: #9f0f0f;
@@ -38,7 +38,7 @@ p{
 }
 `
 
-export const Bars = styled(FaVest)`
+export const Bars = styled(FaShare)`
 font-size: 2rem;
 transform: translate(-50%, -15%);
 `
