@@ -1,13 +1,14 @@
 import React from 'react';
-import { Nav, NavLink, NavIcon, Bars } from './NavbarElements';
+import { Nav, NavLink, NavIcon} from './NavbarElements';
+import * as FaIcons from 'react-icons/fa';
 
 const Navbar = ({toggle}) => {
   return (
     <>
         <Nav>
             <NavLink to='/'>SnackUno</NavLink>
-            <NavIcon onClick={toggle}>
-              <Bars />
+            <NavIcon>
+            <FaIcons.FaBars onClick={toggle} />
             </NavIcon>
         </Nav>
     </>

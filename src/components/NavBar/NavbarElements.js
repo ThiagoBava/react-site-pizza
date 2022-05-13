@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
-import { FaShare } from 'react-icons/fa';
 
 export const Nav = styled.nav`
   background: #9f0f0f;
@@ -24,9 +23,11 @@ export const NavLink = styled(Link)`
     left: 25px;
   }
 `;
+
 export const NavIcon = styled.div`
 display: block;
 position: absolute;
+font-size: 2rem;
 top: 1.5rem;
 left: 150px;
 cursor: pointer;
@@ -36,9 +37,4 @@ p{
   transform: translate(-175%, 100%);
   font-weight: bold;
 }
-`
-
-export const Bars = styled(FaShare)`
-font-size: 2rem;
-transform: translate(-50%, -15%);
-`
+`;
